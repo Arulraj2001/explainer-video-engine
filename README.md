@@ -1,0 +1,204 @@
+---
+title: DoodleSync Studio
+emoji: 🎬
+colorFrom: red
+colorTo: yellow
+sdk: gradio
+sdk_version: 6.31.0
+python_version: '3.12'
+app_file: app.py
+pinned: false
+license: mit
+---
+
+<div align="center">
+
+# 🎬 DoodleSync Studio v2.0
+### All-in-One AI Explainer & Stickman Video Production Engine
+
+**Transform text scripts into broadcast-quality 1080p explainer videos with neural voiceover, frame-accurate pause alignment, Ken Burns camera motion, kinetic typography, and auto-ducked soundtrack scoring.**
+
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-6.0+-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org)
+[![Edge TTS](https://img.shields.io/badge/Neural_TTS-Edge--TTS%20%2F%20ElevenLabs-FFB900?style=for-the-badge&logo=microsoft&logoColor=black)](https://github.com/rany2/edge-tts)
+[![Faster Whisper](https://img.shields.io/badge/Whisper-Local_VAD-9cf?style=for-the-badge&logo=openai&logoColor=black)](https://github.com/SYSTRAN/faster-whisper)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+<br/>
+
+[![GitHub Stars](https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-Click_to_Support!-f59e0b?style=for-the-badge&logo=github)](https://github.com/Arulraj2001/explainer-video-engine)
+[![Contact](https://img.shields.io/badge/%F0%9F%93%A9_Request_Full_Code-arulraj8637%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arulraj8637@gmail.com)
+
+</div>
+
+---
+
+> [!IMPORTANT]
+> ### ⭐ Star This Repository & Get Access to the Full Code
+> - If you find this project impressive or useful for your content creation workflow, **please support it by starring (⭐) the repository on GitHub!**
+> - **🔒 Full Source Code & Enterprise Access:** To get the complete backend source code, production deployment blueprints, or custom commercial engine integration, please email directly:
+>   👉 **[arulraj8637@gmail.com](mailto:arulraj8637@gmail.com)**
+
+---
+
+## 📽️ Live Video Output Showcase
+
+Watch a live preview of a 6-minute, 66-scene educational explainer video rendered completely by DoodleSync Studio. Notice the frame-accurate word highlighting and alternating Ken Burns motion:
+
+<div align="center">
+  <img src="sample/demo_preview.gif" alt="DoodleSync Studio Kinetic Subtitles and Ken Burns Demo" width="90%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  <p><em>Real rendered output from <code>sample/output.mp4</code> — 1080p 30fps with kinetic typography and auto-ducked acoustic BGM.</em></p>
+</div>
+
+### 📊 Rendered Video Specifications
+- **Master Video File:** [`sample/output.mp4`](sample/output.mp4) (111 MB, 1080p H.264 / AAC)
+- **Duration:** `06:42` (402.5 seconds total runtime)
+- **Total Synchronized Scenes:** `66 Scenes` across 66 AI-generated visuals
+- **Audio Mix:** 100% Speech Volume + Dynamic Sidechain-Ducked Acoustic BGM (`Calm Reflection`) + Sketchbook Page Turn SFX at scene cuts
+- **Subtitle Styling:** Sequential word-by-word reveal in golden yellow highlight (`#F5C518`), zero visual jump, pre-allocated layout
+
+---
+
+## 📸 Visual Studio Walkthrough
+
+Here is the complete step-by-step workflow demonstrated in the `sample/` folder:
+
+### 1️⃣ Phase 1 — Voiceover Generation & Voice-Tuning Suite
+Fine-tune speaking rate, pitch depth, pause durations, and rhythm markup (`[pause]`, `*emphasis*`) with curated presets like *"The Machine Economy (Contrarian & Skeptical)"*.
+
+<div align="center">
+  <img src="sample/1.png" alt="Voiceover Generation and Tuning" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 2️⃣ Phase 2 — Explainer Studio & Audio Timeline Setup
+Pick generated or uploaded voiceover tracks, inspect duration (`06:42`), and configure aspect ratio (`16:9 YouTube`, `9:16 Shorts`, `1:1 Square`).
+
+<div align="center">
+  <img src="sample/2.png" alt="Explainer Studio Setup" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 3️⃣ Phase 3 — Bulk Visual Ingestion
+Select all AI-generated image assets (e.g. Midjourney, Google Flow, DALL-E, Stable Diffusion) from your downloads folder.
+
+<div align="center">
+  <img src="sample/3.png" alt="Bulk Image Ingestion" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 4️⃣ Phase 4 — Automatic Timeline & Timestamp Alignment
+The engine automatically maps image filenames to narration scenes, syncing all 66 scene cuts without manual editing.
+
+<div align="center">
+  <img src="sample/4.png" alt="Automatic Timeline Alignment" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 5️⃣ Phase 5 — WYSIWYG Real-Time Video Monitor
+Test your video before rendering in the real-time player. Observe instant word-by-word lighting, kinetic pop, and live audio scrubbing.
+
+<div align="center">
+  <img src="sample/5.png" alt="Real-Time WYSIWYG Cinema Monitor" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 6️⃣ Phase 6 — Full Video Render & High-Speed Compilation
+Compile full 1080p MP4 videos with hardware acceleration. Download finished videos ready for immediate YouTube or TikTok upload.
+
+<div align="center">
+  <img src="sample/6.png" alt="Render Complete" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+### 7️⃣ Phase 7 — Studio Suite Overview
+A streamlined dark-mode creative studio interface engineered for fast YouTube and Short-form video production.
+
+<div align="center">
+  <img src="sample/7.png" alt="Complete Studio Interface" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+</div>
+
+---
+
+## ⚡ Key Capabilities & Superpowers
+
+| Feature | DoodleSync Studio | Traditional Manual Workflow (CapCut / Premiere) |
+| :--- | :--- | :--- |
+| **Scene Alignment** | ⚡ **100% Automatic** (matches pauses & timestamps) | ⏳ 4-8 hours manual slicing per video |
+| **Kinetic Captions** | ⚡ **Mathematical ASS Subtitles** (Sequential, Slam, Pop) | ⏳ Manual keyframing or paid cloud exports |
+| **Camera Motion** | ⚡ **True Ken Burns Director Mode** (alternating push/pan) | ⏳ Manual scale/position keyframing on every cut |
+| **BGM Auto-Ducking** | ⚡ **Broadcast Sidechain Compression** in FFmpeg | ⏳ Manual volume keyframe ducking |
+| **Cost** | 💸 **Free & Local** | 💳 \$20–\$60/month subscriptions |
+| **Processing Speed** | 🚀 **Under 60 seconds** for multi-minute videos | 🐌 Hours of manual rendering and editing |
+
+---
+
+## 🛠️ Architecture & Tech Stack
+
+```mermaid
+flowchart LR
+    A["Script Text"] --> B["Neural TTS Engine\n(Edge-TTS / ElevenLabs)"]
+    B --> C["Word & Pause Timestamp Extraction"]
+    C --> D["Scene Synchronizer"]
+    E["Generated Images / Doodles"] --> D
+    D --> F["Live WYSIWYG Cinema Monitor\n(CSS Hardware Acceleration)"]
+    D --> G["FFmpeg 1080p Render Pipeline"]
+    H["Mood BGM & SFX Catalog"] --> G
+    I["Kinetic ASS Subtitle Compiler"] --> G
+    G --> J["1080p Final Explainer MP4"]
+```
+
+### Core Technologies
+- **Backend:** FastAPI (Python), Uvicorn, Pydantic, FFmpeg / ImageIO
+- **Voice Synthesis:** Edge-TTS (Zero-cost neural speech) & ElevenLabs API integration
+- **Audio Alignment:** Faster-Whisper with Silero Voice Activity Detection (VAD)
+- **Subtitle Engine:** Custom Advanced SubStation Alpha (`.ass`) compiler with alpha transparency illumination
+- **Audio Mixing:** FFmpeg `sidechaincompress`, `aloop`, and `amix` multi-track sound engineering
+- **Frontend:** Vanilla modern ES6 JavaScript, Tailwind CSS, WaveSurfer.js, responsive flexbox layout
+
+---
+
+## 📂 Repository Contents
+
+```plaintext
+├── sample/
+│   ├── 1.png             # Phase 1: Voiceover & Voice Tuning
+│   ├── 2.png             # Phase 2: Explainer Studio Setup
+│   ├── 3.png             # Phase 3: Bulk Visual Selection (66 Scenes)
+│   ├── 4.png             # Phase 4: Auto-Alignment & Timestamp Parsing
+│   ├── 5.png             # Phase 5: Live Video Monitor with Kinetic Text
+│   ├── 6.png             # Phase 6: Completed 1080p Video Compilation
+│   ├── 7.png             # Phase 7: Complete Studio Interface
+│   ├── demo_preview.gif  # High-resolution animated kinetic preview
+│   └── output.mp4        # 1080p rendered explainer master video (111 MB)
+├── .gitattributes        # Git LFS configuration for master media
+├── LICENSE               # MIT License
+└── README.md             # Project presentation & sample showcase
+```
+
+---
+
+## 📩 How to Get the Full Codebase
+
+If you are a content creator, developer, or agency looking to integrate this all-in-one automation pipeline into your business:
+
+1. **⭐ Star this repository** on GitHub.
+2. Send an email to:
+   ### 📬 **`arulraj8637@gmail.com`**
+   - **Subject:** `DoodleSync Studio — Full Source Code Request`
+   - **Include:** Your use case, channel/project link, or organization name.
+
+You will receive the complete source code repository, setup scripts, and setup documentation for local and cloud deployment.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for AI creators, educational educators, and visual storytellers worldwide.</sub>
+</div>

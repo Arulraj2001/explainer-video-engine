@@ -1,0 +1,16 @@
+# Proprietary backend & application source (contact arulraj8637@gmail.com for full access)
+core/
+static/
+assets/
+output/
+scratch/
+__pycache__/
+*.py
+*.bat
+Dockerfile
+.dockerignore
+packages.txt
+requirements.txt
+cloudflared.exe
+*.pyc
+.env
