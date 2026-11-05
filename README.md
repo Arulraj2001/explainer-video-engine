@@ -27,19 +27,22 @@ license: mit
 
 <br/>
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Get_Source_Code_$5-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/x4kqsD0lkA)
+[![Indian Pricing](https://img.shields.io/badge/India_UPI-₹199_Instant_Access-4CAF50?style=for-the-badge&logo=google-pay&logoColor=white)](mailto:arulraj8637@gmail.com)
 [![GitHub Stars](https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-Click_to_Support!-f59e0b?style=for-the-badge&logo=github)](https://github.com/Arulraj2001/explainer-video-engine)
 [![YouTube Video Reference](https://img.shields.io/badge/YouTube-Watch%20Output%20Reference-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/9u3baT3blPY)
-[![Contact](https://img.shields.io/badge/%F0%9F%93%A9_Request_Full_Code-arulraj8637%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arulraj8637@gmail.com)
 
 </div>
 
 ---
 
 > [!IMPORTANT]
-> ### ⭐ Star This Repository & Get Access to the Full Code
-> - If you find this project impressive or useful for your content creation workflow, **please support it by starring (⭐) the repository on GitHub!**
-> - **🔒 Full Source Code & Enterprise Access:** To get the complete backend source code, production deployment blueprints, or custom commercial engine integration, please email directly:
->   👉 **[arulraj8637@gmail.com](mailto:arulraj8637@gmail.com)**
+> ### 🚀 Get the Complete Source Code + All Future Updates
+> - **🌍 International Creators:** **$5 USD** via **[buymeacoffee.com/x4kqsD0lkA](https://buymeacoffee.com/x4kqsD0lkA)**
+> - **🇮🇳 Indian Creators:** **₹199 INR** (Direct UPI / GPay — contact [`arulraj8637@gmail.com`](mailto:arulraj8637@gmail.com))
+> - **🔄 All Future Updates Included:** Every new feature, model upgrade, and engine optimization will be shared with you automatically at no extra cost.
+> - **🛠️ Custom Feature Requests:** Need a specific style, custom TTS voice model, or workflow modification? I can build and customize specific features tailored for your channel or platform!
+> - **⭐ Support the Project:** If you find this project impressive, please give it a Star (⭐) on GitHub!
 
 ---
 
@@ -153,7 +156,7 @@ A streamlined dark-mode creative studio interface engineered for fast YouTube an
 | **Kinetic Captions** | ⚡ **Mathematical ASS Subtitles** (Sequential, Slam, Pop) | ⏳ Manual keyframing or paid cloud exports |
 | **Camera Motion** | ⚡ **True Ken Burns Director Mode** (alternating push/pan) | ⏳ Manual scale/position keyframing on every cut |
 | **BGM Auto-Ducking** | ⚡ **Broadcast Sidechain Compression** in FFmpeg | ⏳ Manual volume keyframe ducking |
-| **Cost** | 💸 **Free & Local** | 💳 \$20–\$60/month subscriptions |
+| **Cost** | 💸 **One-time $5 / ₹199 (Lifetime)** | 💳 \$20–\$60/month subscriptions |
 | **Processing Speed** | 🚀 **Under 60 seconds** for multi-minute videos | 🐌 Hours of manual rendering and editing |
 
 ---
@@ -204,17 +207,57 @@ flowchart LR
 
 ---
 
-## 📩 How to Get the Full Codebase
+## 📦 Get Full Source Code Access & Custom Features
 
-If you are a content creator, developer, or agency looking to integrate this all-in-one automation pipeline into your business:
+Whether you're an educational YouTuber, faceless channel creator, agency, or AI developer, you can get the full production-ready code with lifetime updates and custom enhancements.
 
-1. **⭐ Star this repository** on GitHub.
-2. Send an email to:
-   ### 📬 **`arulraj8637@gmail.com`**
-   - **Subject:** `DoodleSync Studio — Full Source Code Request`
-   - **Include:** Your use case, channel/project link, or organization name.
+<div align="center">
 
-You will receive the complete source code repository, setup scripts, and setup documentation for local and cloud deployment.
+### 💰 Transparent, One-Time Pricing
+
+| Region | Price | How to Pay & Access |
+| :--- | :---: | :--- |
+| 🌍 **International Creators** | **$5 USD** | **[buymeacoffee.com/x4kqsD0lkA](https://buymeacoffee.com/x4kqsD0lkA)** (Card / PayPal) |
+| 🇮🇳 **Indian Creators** | **₹199 INR** | **Direct UPI / GPay** (Email [`arulraj8637@gmail.com`](mailto:arulraj8637@gmail.com) for instant QR code) |
+
+<br/>
+
+<a href="https://buymeacoffee.com/x4kqsD0lkA" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="52" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.4);" />
+</a>
+
+</div>
+
+### ✨ What You Receive:
+1. **Full Production Codebase:**
+   - Complete FastAPI backend server & REST API routes
+   - Fast Whisper + Silero VAD automated pause detection and timestamp alignment
+   - Edge-TTS & ElevenLabs neural speech tuning engine with custom cadence markup
+   - Mathematical ASS kinetic subtitle engine (Sequential Word Reveal, Alex Hormozi Scale Slam, Karaoke Pop)
+   - FFmpeg 1080p rendering engine with Director Mode Ken Burns, aspect ratios (`16:9`, `9:16`, `1:1`), and dynamic broadcast sidechain BGM ducking
+   - Modern responsive studio UI with real-time cinema monitor & image drag-and-drop
+2. **🔄 Lifetime Future Updates:**
+   - All future updates, new features, preset packs, and engine improvements will be shared with you automatically at no extra charge.
+3. **🛠️ Custom Feature Development & Tailored Enhancements:**
+   - Have a channel-specific requirement, unique caption animation, or custom workflow? I can build and customize specific features tailored to your needs!
+4. **🚀 1-Click Launchers:**
+   - `run.bat` for offline PC usage
+   - `run_public.bat` for secure Cloudflare HTTPS mobile/remote tunnel access
+   - Complete Dockerfile and environment configuration
+
+---
+
+### 📬 How to Claim Your Code:
+1. **Option A (International - $5):**
+   - Head over to **[buymeacoffee.com/x4kqsD0lkA](https://buymeacoffee.com/x4kqsD0lkA)** and contribute $5.
+   - Leave your email address in the message/note.
+   - You will receive the private repository link & complete code package promptly.
+2. **Option B (India - ₹199) or Custom Feature Requests:**
+   - Send an email directly to:
+     ### 📧 **`arulraj8637@gmail.com`**
+     - **Subject:** `DoodleSync Studio — Full Code Access (UPI) / Feature Request`
+     - **Include:** Your use case or any specific feature requirements you need built.
+   - You will receive the instant UPI QR code / details and personalized developer support.
 
 ---
 
