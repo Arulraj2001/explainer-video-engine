@@ -28,6 +28,7 @@ license: mit
 <br/>
 
 [![GitHub Stars](https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-Click_to_Support!-f59e0b?style=for-the-badge&logo=github)](https://github.com/Arulraj2001/explainer-video-engine)
+[![YouTube Video Reference](https://img.shields.io/badge/YouTube-Watch%20Output%20Reference-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/9u3baT3blPY)
 [![Contact](https://img.shields.io/badge/%F0%9F%93%A9_Request_Full_Code-arulraj8637%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arulraj8637@gmail.com)
 
 </div>
@@ -44,7 +45,21 @@ license: mit
 
 ## 📽️ Live Video Output Showcase
 
-Watch a live preview of a 6-minute, 66-scene educational explainer video rendered completely by DoodleSync Studio. Notice the frame-accurate word highlighting and alternating Ken Burns motion:
+Watch the full-length 6-minute, 66-scene educational explainer video rendered completely by DoodleSync Studio:
+
+<div align="center">
+  <a href="https://youtu.be/9u3baT3blPY" target="_blank">
+    <img src="https://img.youtube.com/vi/9u3baT3blPY/maxresdefault.jpg" alt="Watch Full Video on YouTube" width="90%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  </a>
+  <p>
+    ▶️ <strong><a href="https://youtu.be/9u3baT3blPY" target="_blank">Click Here to Watch the Full 1080p Video Output on YouTube</a></strong> (Reference: <code>https://youtu.be/9u3baT3blPY</code>)
+  </p>
+</div>
+
+<br/>
+
+### 🎬 Real-Time Kinetic Caption & Ken Burns Motion Preview
+Notice the frame-accurate word highlighting and alternating Ken Burns motion generated automatically without keyframing:
 
 <div align="center">
   <img src="sample/demo_preview.gif" alt="DoodleSync Studio Kinetic Subtitles and Ken Burns Demo" width="90%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
@@ -52,9 +67,11 @@ Watch a live preview of a 6-minute, 66-scene educational explainer video rendere
 </div>
 
 ### 📊 Rendered Video Specifications
+- **YouTube Full Video Reference:** [https://youtu.be/9u3baT3blPY](https://youtu.be/9u3baT3blPY)
 - **Master Video File:** [`sample/output.mp4`](sample/output.mp4) (111 MB, 1080p H.264 / AAC)
 - **Duration:** `06:42` (402.5 seconds total runtime)
-- **Total Synchronized Scenes:** `66 Scenes` across 66 AI-generated visuals
+- **Visual Assets:** Generated and downloaded using **Google Flow bulk downloader** (66 sequential AI-generated visuals)
+- **Total Synchronized Scenes:** `66 Scenes` mapped automatically to spoken narration cuts
 - **Audio Mix:** 100% Speech Volume + Dynamic Sidechain-Ducked Acoustic BGM (`Calm Reflection`) + Sketchbook Page Turn SFX at scene cuts
 - **Subtitle Styling:** Sequential word-by-word reveal in golden yellow highlight (`#F5C518`), zero visual jump, pre-allocated layout
 
@@ -82,11 +99,11 @@ Pick generated or uploaded voiceover tracks, inspect duration (`06:42`), and con
 
 ---
 
-### 3️⃣ Phase 3 — Bulk Visual Ingestion
-Select all AI-generated image assets (e.g. Midjourney, Google Flow, DALL-E, Stable Diffusion) from your downloads folder.
+### 3️⃣ Phase 3 — Bulk Visual Ingestion (Google Flow Bulk Downloader)
+All 66 scene visual assets are generated and fetched using the **Google Flow bulk downloader** (as well as Midjourney, DALL-E, or Stable Diffusion) and selected in bulk directly from your downloads folder.
 
 <div align="center">
-  <img src="sample/3.png" alt="Bulk Image Ingestion" width="95%" style="border-radius: 10px; margin: 10px 0;" />
+  <img src="sample/3.png" alt="Bulk Image Ingestion from Google Flow" width="95%" style="border-radius: 10px; margin: 10px 0;" />
 </div>
 
 ---
@@ -132,6 +149,7 @@ A streamlined dark-mode creative studio interface engineered for fast YouTube an
 | Feature | DoodleSync Studio | Traditional Manual Workflow (CapCut / Premiere) |
 | :--- | :--- | :--- |
 | **Scene Alignment** | ⚡ **100% Automatic** (matches pauses & timestamps) | ⏳ 4-8 hours manual slicing per video |
+| **Visual Ingestion** | ⚡ **Google Flow Bulk Downloader Integration** | ⏳ Manual file renaming & import |
 | **Kinetic Captions** | ⚡ **Mathematical ASS Subtitles** (Sequential, Slam, Pop) | ⏳ Manual keyframing or paid cloud exports |
 | **Camera Motion** | ⚡ **True Ken Burns Director Mode** (alternating push/pan) | ⏳ Manual scale/position keyframing on every cut |
 | **BGM Auto-Ducking** | ⚡ **Broadcast Sidechain Compression** in FFmpeg | ⏳ Manual volume keyframe ducking |
@@ -147,18 +165,19 @@ flowchart LR
     A["Script Text"] --> B["Neural TTS Engine\n(Edge-TTS / ElevenLabs)"]
     B --> C["Word & Pause Timestamp Extraction"]
     C --> D["Scene Synchronizer"]
-    E["Generated Images / Doodles"] --> D
+    E["Google Flow Bulk Downloader\n(66 AI Visuals)"] --> D
     D --> F["Live WYSIWYG Cinema Monitor\n(CSS Hardware Acceleration)"]
     D --> G["FFmpeg 1080p Render Pipeline"]
     H["Mood BGM & SFX Catalog"] --> G
     I["Kinetic ASS Subtitle Compiler"] --> G
-    G --> J["1080p Final Explainer MP4"]
+    G --> J["1080p Final Explainer MP4\n(YouTube Reference: 9u3baT3blPY)"]
 ```
 
 ### Core Technologies
 - **Backend:** FastAPI (Python), Uvicorn, Pydantic, FFmpeg / ImageIO
 - **Voice Synthesis:** Edge-TTS (Zero-cost neural speech) & ElevenLabs API integration
 - **Audio Alignment:** Faster-Whisper with Silero Voice Activity Detection (VAD)
+- **Visual Sourcing:** Google Flow bulk downloader, AI image generation workflows
 - **Subtitle Engine:** Custom Advanced SubStation Alpha (`.ass`) compiler with alpha transparency illumination
 - **Audio Mixing:** FFmpeg `sidechaincompress`, `aloop`, and `amix` multi-track sound engineering
 - **Frontend:** Vanilla modern ES6 JavaScript, Tailwind CSS, WaveSurfer.js, responsive flexbox layout
@@ -171,7 +190,7 @@ flowchart LR
 ├── sample/
 │   ├── 1.png             # Phase 1: Voiceover & Voice Tuning
 │   ├── 2.png             # Phase 2: Explainer Studio Setup
-│   ├── 3.png             # Phase 3: Bulk Visual Selection (66 Scenes)
+│   ├── 3.png             # Phase 3: Bulk Visual Selection (Google Flow Downloader)
 │   ├── 4.png             # Phase 4: Auto-Alignment & Timestamp Parsing
 │   ├── 5.png             # Phase 5: Live Video Monitor with Kinetic Text
 │   ├── 6.png             # Phase 6: Completed 1080p Video Compilation
